@@ -5,37 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bangladesh</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"><link   rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="nav.css">
+    <link   rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b5bd711e79.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav>
         
         <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Our History</a></li>
-            <li><a href="">Our Cultures</a></li>
-            <li><a href="">Education</a></li>
-            <li><a href="">About Us</a></li>
+            <li><a href=""><i class="fas fa-home"></i>Home</a></li>
+            <li><a href=""><i class="fab fa-pied-piper-alt"></i>Our History</a></li>
+            <li><a href=""><i class="fas fa-book-reader"></i>Our Cultures</a></li>
+            <li><a href=""><i class="fas fa-user-graduate"></i>Education</a></li>
+            <li><a href=""><i class="fas fa-user"></i>About Us</a></li>
         </ul>
+        
     </nav>
     <header class="header-section">
         <div class="half-width header-content">
             <h1>PEOPLE'S REPUBLIC OF <span>BANGLADESH</span></h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, iste! Quae omnis ea velit amet maiores vitae quod itaque numquam expedita qui. Earum laudantium, reiciendis corrupti ea quaerat unde veritatis. Voluptatem natus aliquid suscipit porro tempore, delectus commodi quam accusamus consequatur expedita, pariatur officiis explicabo vitae cum laudantium accusantium omnis?</p>
-            <a class="link-button" href="#" target="_blank">More Info</a>
+            <a class="link-button" href="#" target="_blank">More Info<i class="fas fa-info-circle"></i></a>
         </div>
         <div class="half-width">
             <img src="images/bd-flag.png" alt="">
         </div>
     </header>
-    <h1 class="divisions-title">DIVISIONS</h1>
+    <h1 class="divisions-title">DIVISIONS<i class="fas fa-angle-double-down"></i></h1>
    <section class="divisions">
        <div class="dhaka-content">
            <img src="images/dhaka.jpg" alt="">
            <h2 class="dhaka-blogs">Dhaka</h2>
            <p class="dhaka-blogs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas voluptatum aut ducimus quisquam quo ut repellat necessitatibus dolor, doloribus obcaecati.</p>
+           
        </div>
        <div class="ctg-content">
            <img src="images/ctg.jpg" alt="">
@@ -48,5 +53,162 @@
            <p class="dhaka-blogs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas voluptatum aut ducimus quisquam quo ut repellat necessitatibus dolor, doloribus obcaecati.</p>
        </div>
    </section>
+   <h1 class="dev-box">Bangldesh Development Box</h1>
+   <section class="improvement">
+      <article id="first-blog" class="blogs">
+            <h1>Electricity <i class="fas fa-charging-station icon"></i></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quos accusamus eius vero aspernatur illo consequatur! Ex qui doloremque autem recusandae animi sequi deleniti numquam aspernatur pariatur ducimus, debitis quam.</p>
+      </article>
+       <article id="second-blog" class="blogs">
+            <h1>Education<i class="fas icon fa-school"></i></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quos accusamus eius vero aspernatur illo consequatur! Ex qui doloremque autem recusandae animi sequi deleniti numquam aspernatur pariatur ducimus, debitis quam.</p>
+       </article>
+       <article id="third-blog" class="blogs">
+            <h1>Buissness<i class="fas icon fa-chart-line"></i></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quos accusamus eius vero aspernatur illo consequatur! Ex qui doloremque autem recusandae animi sequi deleniti numquam aspernatur pariatur ducimus, debitis quam.</p>
+       </article>
+       <article id="fourth-blog" class="blogs">
+            <h1>Technology<i class="fas fa-wifi icon"></i></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quos accusamus eius vero aspernatur illo consequatur! Ex qui doloremque autem recusandae animi sequi deleniti numquam aspernatur pariatur ducimus, debitis quam.</p>
+       </article>
+   </section>
+  <section class="vaccine-section">
+    <div class="registration">
+        <form id="covid-19" class="regi-section" action="">
+            <h2 class="form-header"><i class="fas fa-virus"></i>Covid-19 Vaccine<i class="fas fa-syringe"></i> </h2>
+            <p class="form-title"><i class="fas fa-head-side-mask"></i>Wear Musk,Stay Safe!</p>
+            <label for="firstname">
+                First Name: <br>
+                <input type="text" name="your-name" id="firstname">
+            </label> <br>
+            <label for="lastname">
+                Last Name: <br>
+                <input type="text" name="your-name" id="lastname">
+            </label> <br>
+            <label for="email">
+                E-mail: <br>
+                 <input type="email" name="your-email" id="email">
+            </label> <br>
+            <label for="number">
+                Phone: <br>
+                <input type="number" name="yourphone" id="number">
+            </label><br>
+            Gender: <br>
+            <label for="male">
+                <input type="radio" name="gender" id="male">Male 
+            </label>
+            <label for="female">
+                <input type="radio" name="gender" id="female">Female 
+            </label> <br>
+            <label for="birthday">
+                Date Of Birth: <br>
+                <input type="date" name="dateofbirth" id="birthday">
+            </label> <br>
+            <label for="city">
+                Division: <br>
+                <input type="text" name="division" id="city">
+            </label><br>
+            <label for="village">
+                Village: <br>
+                <input type="text" name="villagename" id="village">
+            </label><br>
+            <label for="upazila">
+                Upazila: <br>
+                <input type="text" name="upazila" id="upazila">
+            </label><br>
+            <label for="postcode">
+                Post Code: <br>
+                <input type="text" name="p.c" id="postcode">
+            </label><br>
+            Choose Medical: <br>
+            <label for="satkania-medical">
+                 <input type="checkbox" name="medicalname" id="satkania-medical">Satkania Medical                
+            </label> <br>
+            <label for="bajaliya-medical">
+                 <input type="checkbox" name="medicalname" id="bajiliya-medical">Bajaliya Medical                
+            </label> <br>
+            <label for="chittagong-medical">
+                 <input type="checkbox" name="medicalname" id="chittagong-medical">Chittagong Medical                
+            </label> <br>
+            <label for="dhaka-medical">
+                 <input type="checkbox" name="medicalname" id="dhaka-medical">Dhaka Medical                
+            </label> <br>
+            <label for="about">
+                Write About You: <br>
+                <textarea name="data" id="about" cols="15" rows="2"></textarea>
+            </label> <br><br>
+            <label for="button">
+                <a class="link-button" href="#" target="_blank">Submit</a>
+            </label>
+            <label for="button">
+                <a class="link-button" href="#" target="_blank">Reset</a>
+            </label>
+            
+        </form>
+        <div id="regi-info" class="regi-section">
+            <h1>Registration For <br> <span>Covid-19 Vaccine </span></h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi ipsa consequuntur ea cum, labore ab, provident excepturi reiciendis, nulla voluptates maxime soluta! Eum ullam eveniet, esse possimus fugit cupiditate labore ipsam, facilis alias tenetur consectetur error placeat, necessitatibus perspiciatis accusantium ipsum quis corrupti deserunt aspernatur nulla soluta inventore! Ea, neque.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi ipsa consequuntur ea cum, labore ab, provident excepturi reiciendis, nulla voluptates maxime soluta! Eum ullam eveniet, esse possimus fugit cupiditate labore ipsam, facilis alias tenetur consectetur error placeat, necessitatibus perspiciatis accusantium ipsum quis corrupti deserunt aspernatur nulla soluta inventore! Ea, neque.</p>
+        </div>
+    </div>
+  </section>
+  <section class="prime-section">
+      <div class="prime-minister">
+          <img src="images/sheikh-hasina-bg.png" alt="">
+      </div>
+      <div class="prime-info">
+          <h1>Bangladesh Priminister <br><span> Sheikh Hasina</span></h1>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed maiores eligendi autem ad quas dolorem. Eos corrupti soluta ullam in nemo iusto sit molestias iure similique autem? Officia ratione doloribus ipsam iste molestias mollitia. Iusto sapiente autem enim maxime obcaecati quo provident voluptas nam labore illum aut, recusandae reiciendis officia?</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed maiores eligendi autem ad quas dolorem. Eos corrupti soluta ullam in nemo iusto sit molestias iure similique autem? Officia ratione doloribus ipsam iste molestias mollitia. Iusto sapiente autem enim maxime obcaecati quo provident voluptas nam labore illum aut, recusandae reiciendis officia?</p>
+      </div>
+  </section>
+  <h3 class="nextpage">Next Page<i class="fas fa-arrow-circle-right"></i></h3>
+  <footer>
+      <div class="footer-section">
+        <div class="footer-data">
+            <div>
+                <fieldset>
+                    <legend>Join Us</legend>
+                    <label for="name">
+                        Name: <br>
+                        <input type="text" name="yourname" id="name">
+                    </label> <br>
+                    <label for="email">
+                        E-mail: <br>
+                        <input type="email" name="youremail" id="email">
+                    </label> <br>
+                    <label for="pass">
+                        Pass: <br>
+                        <input type="password" name="password" id="pass">
+                    </label> <br> <br>
+  
+                    <label for="signup">
+                        <a class="signup" href="">Sign-Up</a>
+                    </label>
+  
+                </fieldset>
+            </div>
+        </div>
+        <div class="contact">
+            <h3>Bangladesh Info</h3>
+            <h4>Level-4, 34, Awal Centre, Khulshi, Ctg</h4>
+            <h4>Official: </h4>
+            <h4>Helpline:<a class="tel" href="tel:+01610243375"> 01610244375</a></h4>
+            <p>(Available : Sat - Thu, 10:00 AM to 7:00 PM)
+          </p>
+        </div>
+        <div class="payimg">
+            <img src="images/paywith.png" alt="">
+        </div>
+      </div>
+      <div class="social-link">
+          <h3>Find Us On: 
+              <a href="https:www.facebook.com/supriodas07" target="_blank"><i class="fab fa-facebook-square"></i></a><a href="https://github.com/Suprio-Das"><i class="fab fa-github"></i></a>
+          </h3>
+      </div>
+      <div class="copyright">
+          <p>Copyright © 2022 Owner Suprio Das</p>
+      </div>
+  </footer>
 </body>
 </html>

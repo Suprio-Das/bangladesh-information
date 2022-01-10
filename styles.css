@@ -2,27 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
 }
-nav ul{
-    display: flex;
-    justify-content: start;
-    margin-top: 7px;
-}
-nav a{
-    text-decoration: none;
-    color: black;
-}
-nav ul li a:hover{
-    color: red;
-}
-nav ul li{
-    list-style-type: none;
-    margin-right: 25px;
-    padding: 0px 5px;
-    color: black;
-}
-nav ul li:hover{
-    background-color: rgba(211, 211, 211, 0.342);
-}
+
 .link-button{
     background-color: tomato;
     padding: 10px 30px;
@@ -33,7 +13,7 @@ nav ul li:hover{
 
 .header-section{
     display: flex;
-    padding-top: 20px;
+    padding-bottom: 20px;
     justify-content: space-around;
 }
 .half-width{
@@ -43,6 +23,13 @@ nav ul li:hover{
 .header-content{
     margin-top: 3%;
     margin-left: 7%;
+}
+.fa-info-circle{
+    margin-left: 3px;
+}
+.fa-angle-double-down{
+    margin-left: 3px;
+    font-size: 33px;
 }
 .header-content p{
     text-align: justify;
@@ -56,6 +43,7 @@ nav ul li:hover{
 .half-width img{
     width: 50%;
     margin-left: 30%;
+    margin-top: 25px;
 }
 .divisions-title{
     text-align: center;
@@ -102,4 +90,179 @@ nav ul li:hover{
 .dhaka-blogs{
     padding: 0 15px;
     text-align: justify;
+}
+.dev-box{
+    text-align: center;
+    font-size: 40px;
+    color: rebeccapurple;
+    box-shadow: 10px 10px 30px grey;
+    border-radius: 50px;
+    width: 50%;
+    margin-top: 5%;
+   margin-left: 25%;
+   padding: 10px;
+}
+.improvement{
+    display: flex;
+    margin-top: 50px;
+}
+.blogs{
+    width: 30%;
+    padding: 0px 30px;
+    text-align: justify;
+    margin: 0px 15px;
+}
+.blogs h1{
+    font-size: 25px;
+    color: rgb(238, 17, 113);
+}
+#first-blog{
+    box-shadow: 10px 10px 15px grey;
+    border-radius: 10px;
+    background-color: rgba(144, 238, 144, 0.849);
+}
+#second-blog{
+    box-shadow: 10px 10px 15px grey;
+    border-radius: 10px;
+    background-color: rgba(255, 160, 122, 0.787);
+}
+#third-blog{
+    box-shadow: 10px 10px 15px grey;
+    border-radius: 10px;
+    background-color: rgba(119, 136, 153, 0.808);
+}
+#fourth-blog{
+    box-shadow: 10px 10px 15px grey;
+    border-radius: 10px;
+    background-color: rgba(216, 112, 147, 0.746);
+}
+.registration{
+    display: flex;
+    margin-top: 6%;
+}
+
+#covid-19{
+    margin-left: 15%;
+    background-color: white;
+    margin-top: 5%;
+    padding: 20px 50px 40px;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 10px;
+}
+#regi-info{
+    width: 40%;
+    margin-left: 13%;
+    margin-top: 18%;
+    padding: 0px 10px;
+}
+#regi-info h1{
+    font-size: 40px;
+    color: mediumslateblue;
+}
+#regi-info p{
+    text-align: justify;
+}
+#regi-info span{
+    color: orange;
+}
+.form-header{
+    text-align: center;
+}
+.form-title{
+    text-align: center;
+    margin-top: -9px;
+    color: darkgoldenrod;
+}
+.fa-head-side-mask{
+    color: black;
+}
+.icon{
+    margin-left: 4px;
+}
+.prime-section{
+    display: flex;
+    margin-top: 7%;
+}
+.prime-minister img{
+    width: 70%;
+    margin-left: 5%;
+    margin-top: 8%;
+}
+.prime-info{
+    width: 70%;
+   margin-right: 5%;
+   
+}
+.prime-info h1{
+    font-size: 40px;
+}
+.prime-info p{
+    text-align: justify;
+}
+.prime-info span{
+    color: darkslateblue;
+}
+.nextpage{
+    text-align: center;
+    background-color: rgb(248, 53, 18);
+    width: 130px;
+    padding: 3px 20px;
+    border-radius: 30px;
+    color: white;
+    margin-left: 45%;
+}
+.fa-arrow-circle-right{
+    margin-left: 5px;
+}
+footer{
+    background-color: rgb(122, 33, 204);
+    padding: 65px 15px 10px; 
+    margin-top: 6%;
+}
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+}
+.signup{
+    text-decoration: none;
+    background-color: rgb(223, 176, 24);
+    padding:3px 10px;
+    color: white;
+    border-radius: 4px;
+}
+fieldset{
+    width: 200px;
+    background-color: rgb(230, 0, 122);
+    color: white;
+    border: 1px solid white;
+    border-radius: 6px;
+    margin-left: 15%;
+    padding: 10px;
+}
+.contact{
+    color: white;
+    margin-left: 5%;
+    margin-top: -2px;
+}
+.payimg{
+    margin-top: 25px;
+    margin-right: 5%;
+}
+.tel{
+    color: white;
+}
+.social-link{
+    margin-left: 40px;
+}
+.social-link h3{
+    color: white;
+}
+.social-link a{
+    color: white;
+    font-size: 30px;
+    padding: 5px;
+}
+.copyright p{
+    text-align: center;
+    color: white;
 }

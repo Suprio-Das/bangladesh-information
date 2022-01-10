@@ -1,0 +1,35 @@
+nav ul{
+    display: flex;
+    justify-content: start;
+    margin-top: 7px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: white;
+}
+nav ul li{
+    list-style-type: none;
+    margin-right: 25px;
+    padding: 0px 5px;
+    color: black;
+}
+nav ul li:hover{
+    background-color: rgb(228, 48, 48);
+    border-radius: 20px;
+    transition: background-color 0.5s;
+}
+nav{
+    background-color: rgb(88, 9, 161);
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+}
+.fas{
+    padding-right: 3px;
+}
+.fab{
+    padding-right: 3px;
+}
